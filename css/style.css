@@ -353,3 +353,20 @@ img {
   transition: opacity 500ms;
   z-index: 1;
 }
+
+[data-slide-nav] {
+  text-align: center;
+  margin-top: 40px;
+  display: block;
+}
+[data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -100px;
+  overflow: none;
+}
