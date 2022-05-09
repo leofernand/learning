@@ -374,3 +374,14 @@ img {
 .js [data-slide-nav] button.active {
 background: #fec63e;
 }
+.js [data-anime] {
+  transform: translate3d(0, -20px, 0);
+  /*transform: rotate(360deg);*/
+  opacity: 0;
+  
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 8000ms, transform 8000ms;
+}
