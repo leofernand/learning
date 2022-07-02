@@ -392,3 +392,11 @@ background: #fec63e;
   height: 0px;
 
 }
+
+#form-sucesso {
+  color: green;
+}
+
+#form-erro {
+  color: red;
+}
